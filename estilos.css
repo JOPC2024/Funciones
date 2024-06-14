@@ -1,0 +1,35 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('https://st3.idealista.com/news/archivos/styles/fullwidth_sm/public/2022-03/calle_de_alcala_2_1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#semaforo{
+    border:2px solid black;
+    width: 110px;
+    height: 310px;
+    margin: 10px auto;
+    background-color: grey;
+}
+.circulo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin:auto;
+    border:2px solid black;
+    filter:brightness(20%);
+}
+#rojo {
+    background-color: red;
+}
+#amarillo{
+    background-color: yellow;
+    filter:brightness(100%);
+}
+#verde{
+    background-color: green;
+}
